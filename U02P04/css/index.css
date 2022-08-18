@@ -72,3 +72,9 @@ footer {
         width: 100%;
     }
 }
+
+section.mapa {
+    text-align: center;
+    vertical-align: center;
+    background-color: #e5e5e553;
+}
