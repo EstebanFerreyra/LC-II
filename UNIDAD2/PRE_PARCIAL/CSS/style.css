@@ -1,10 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
-
 * {
-    display: flex;
-    font-family:'Lato', sans-serif;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
+.estilo__nav {
+    display: flex;
+    flex-grow: initial;
+    margin: 50px;
+
+}
+
+.estilo__li {
+    display: inline-flex;
+    text-transform: uppercase;
+
+}
+
+.estilo__li a {
+    padding: 20px;
+    color: rgb(56, 58, 57);
+    text-decoration: none;
+}
+
+.estilo__li:hover {
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(56, 58, 57);
+    background-color: rgb(147, 151, 148);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(174, 179, 177);
+}
+
+.active {
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(56, 58, 57);
+
+}
+
+.logo {
+    display: flex;
+    float: inline-start;
+    width: 200px;
+    margin: 20px;
+}
+
+.main-image {
+    display: flex;
+}
+
+.img-content {
+    padding: 75px 50px 50px 50px;
+}
+
+.img-background {
+    width: 5000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-background h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-alumnos {
+    width: 100%;
+    height: 100%;
+}
+
+
+.profile {
+    float: left;
+    width: 50px;
+    margin: 10px 10px 10px 550px;
+}
+
+.profile a svg {
+    color: black;
+}
+
+.profile a svg:hover {
+    color: rgb(147, 151, 148);
+}
